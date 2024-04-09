@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B32;
+    color: #F5F6F7;
+    font-size: 20px;
+}
+
+.centered {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.big {
+    font-size: 1.5rem;
+}
+
+#try-button {
+    width: 100px;
+    background-color: rgb(201, 195, 195);
+    border-radius: 7px;
+}
+
+#reset-button {
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: rgb(201, 195, 195);
+    border-radius: 7px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
