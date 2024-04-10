@@ -18,6 +18,7 @@ document.getElementById("try-button").addEventListener("click", function () {
     } else if (userNumber < 0 || userNumber > 100) {
         alert("Number must be between 0 and 100");
     }
+        //If ethe input is okay do this:
     else {
         // Win message
         //I don't know how to reset it
