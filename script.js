@@ -1,4 +1,4 @@
-thivar userInput = document.querySelector("#input-number")
+var userInput = document.querySelector("#input-number")
 var win = document.querySelector("#gg");
 var lose = document.querySelector("#lose");
 var triesLeft = document.querySelector("#tries-left");
